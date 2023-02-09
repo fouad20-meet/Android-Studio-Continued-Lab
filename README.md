@@ -21,13 +21,16 @@ In this lab, we'll be making well designed pages with the possibilty to move bet
     - When the submit button in the MainActivity is clicked:
         - Go to the SignUpActivity.
 
-3. **HomeActivity & Menu**:
+3. **HomeActivity**:
       1. Create a new Activity called `HomeActivity` (Empty Activity), the Activity should contain:
             - A `TextView` that says: "Welcome to our App!".
-      2. Create a menu directory, then a menu file:
+      2. When Signin in `MainActivity` or Submit in `SignUpActivity` is clicked, go to `HomeActivity`.
+      
+4. **Option Menu**:
+      1. Create a menu directory, then a menu file:
             - Add an `Item` with the text: "SignOut".
-      3. **Inflate** the menu to `HomeActivity`.
-      4. **Implement** `onOptionItemSelected` function:
+      2. **Inflate** the menu to `HomeActivity`.
+      3. **Implement** `onOptionItemSelected` function:
             - When SignOut is pressed, return to the `MainActivity`.
 
 
