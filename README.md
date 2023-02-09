@@ -9,37 +9,32 @@ By the end of this lab, you will have a template of a signin page.
 
 In this lab, we'll be creating a sign in page using TextView, EditText & Button!  
 
-1. Create and set up a new `Android Studio` project:
-    - Go to new -> new project -> Empty Activity.
-    - Make sure your code is in **Java**.
+1. Designing the views of the MainActivity:
+    - Give the `EditText` a **rounded border** around the input. (Google how!)
+    - Give the `Buttons` **rounded corners** and **change their color**.
 
-2. In your XML file:
-    1. Change the layout to `LinearLayout`.
-          - Don't forget the LinearLayout attributes.
-          - Center all the objects within the layout.
-    2. Add:
-          - A `TextView` that says SignIn.
-          - Two `EditTexts` for email & password, **hint:** Don't forget the difference between hint and text.
-          - Two `Buttons` one says signin and the other signup.
-              - Organize the buttons to be next to each, **hint: LinearLayout & weight**.
-          - **Don't forget to add ids**
-    3. Use margins to improve the appearance of the page. 
+2. SignUpActivity:
+    - Create a new Activity called SignUpActivity (Empty Activity), the Activity should contain:
+          1. A TextView that says: Sign Up.
+          2. 3 EditTexts: Name, Email & Password.
+          3. A submit Button.
+    - When the submit button in the MainActivity is clicked:
+        - Go to the SignUpActivity.
 
-3. In your Java file:
-      1. Connect the views from the `XML file` to the `Java file`.
-      2. Set an `onclick listener` for both button:
-        - When the signin `Button` is clicked:
-            - Set the text of the EditTexts to be the email of the user.
-        - When the signup `Button` is clicked:
-            - Using Toast, display "Signup is under construction" as a message.
+3. HomeActivity & Menu:
+      1. Create a new Activity called HomeActivity (Empty Activity), the Activity should contain:
+        - A TextView that says: Welcome to our App.
+      2. Create a menu directory, then a menu file:
+        - Add an Item with the text "Sign Out".
+      3. Inflate the menu to HomeActivity.
+      4. Implement onOptionItemSelected function:
+        - When signout is pressed, return to the MainActivity.
 
 
 ##### Call an Instructor/TA to check your completed tasks
 
 ### Bonus:
 
-1. Perform the function of the signin button only if:
-    - The email contains "@" & ".com"
-    - The password is 6 characters long.
+1. When you go to HomeActivity, send the email of the user as a variable and display it in HomeActivity.
  
 ###### make sure you commit and push your code.
