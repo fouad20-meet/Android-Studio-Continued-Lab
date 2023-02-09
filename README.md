@@ -15,9 +15,9 @@ In this lab, we'll be making well designed pages with the possibilty to move bet
 
 2. **SignUpActivity**:
     - Create a new Activity called `SignUpActivity` (Empty Activity), the Activity should contain:
-          1. A `TextView` that says: "Sign Up".
-          2. 3 `EditTexts`: Name, Email & Password.
-          3. A submit `Button`.
+        1. A `TextView` that says: "Sign Up".
+        2. 3 `EditTexts`: Name, Email & Password.
+        3. A submit `Button`.
     - When the submit button in the MainActivity is clicked:
         - Go to the SignUpActivity.
 
