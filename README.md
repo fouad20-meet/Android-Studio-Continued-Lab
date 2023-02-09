@@ -23,12 +23,12 @@ In this lab, we'll be making well designed pages with the possibilty to move bet
 
 3. **HomeActivity & Menu**:
       1. Create a new Activity called `HomeActivity` (Empty Activity), the Activity should contain:
-        - A `TextView` that says: "Welcome to our App!".
+            - A `TextView` that says: "Welcome to our App!".
       2. Create a menu directory, then a menu file:
-        - Add an `Item` with the text: "SignOut".
+            - Add an `Item` with the text: "SignOut".
       3. **Inflate** the menu to `HomeActivity`.
       4. **Implement** `onOptionItemSelected` function:
-        - When SignOut is pressed, return to the `MainActivity`.
+            - When SignOut is pressed, return to the `MainActivity`.
 
 
 ##### Call an Instructor/TA to check your completed tasks
